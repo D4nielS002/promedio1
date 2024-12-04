@@ -2,7 +2,6 @@
 {
     public class Alumno
     {
-
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public double Nota1 { get; set; } //accesorios de la propiedad nota 1

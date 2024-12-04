@@ -1,0 +1,19 @@
+﻿@model promedio1.Models.Alumno  // Esto enlaza la vista con el modelo Alumno
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Notas</title>
+</head>
+<body>
+    <h1>Resultado de Notas</h1>
+    <p>Nombre: @Model.Nombre</p>
+    <p>Apellido: @Model.Apellido</p>
+    <p>Nota 1: @Model.Nota1</p>
+    <p>Nota 2: @Model.Nota2</p>
+    <p>Promedio: @Model.Promedio</p>
+    <a href="@Url.Action("Index","Alumno")">Voler a calcular</a>
+</body>
+</html>
